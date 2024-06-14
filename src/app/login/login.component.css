@@ -1,0 +1,28 @@
+main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 84%;
+}
+
+#section-login{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 400px;
+}
+
+#button-login{
+    border-radius: 15px;
+    background-color: green;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 42px;
+    transition: all 0.2s ease-in-out;
+}
+
+#button-login:hover{
+    transform: scale(1.1);
+}
